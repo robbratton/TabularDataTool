@@ -1,4 +1,4 @@
-# TabularDataTool
+# TabularDataTools
 
 This is a set of tools for handling tabular data.
 
