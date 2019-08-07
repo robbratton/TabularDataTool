@@ -19,8 +19,7 @@
             </Grid.ColumnDefinitions>
             <Label Content="Filename:" Margin="5" />
             <StackPanel Grid.Column="1">
-                <ComboBox x:Name="Filename" HorizontalAlignment="Left" Margin="5" VerticalAlignment="Top" Width="400"
-                          IsEditable="True" />
+                <TextBox x:Name="Filename" HorizontalAlignment="Left" Margin="5" VerticalAlignment="Top" Width="400" TextChanged="Filename_TextChanged"/>
                 <StackPanel Orientation="Horizontal">
                     <Label Content="Has Header:" VerticalAlignment="Center" />
                     <CheckBox x:Name="HasHeader" IsChecked="True" VerticalAlignment="Center" />
@@ -28,7 +27,7 @@
 
             </StackPanel>
             <Button x:Name="Open" Content="Open" Grid.Column="2" HorizontalAlignment="Left" Margin="5"
-                    VerticalAlignment="Top" Width="75" Click="Button_Click" />
+                    VerticalAlignment="Top" Width="75" Click="Button_Click" IsEnabled="False" RenderTransformOrigin="1.33,0.914" />
         </Grid>
         <Grid Grid.Row="1">
             <DataGrid x:Name="Output" IsReadOnly="True" />

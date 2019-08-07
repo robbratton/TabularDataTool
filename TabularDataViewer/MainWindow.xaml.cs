@@ -25,5 +25,10 @@ namespace TabularDataViewer
 
             Output.ItemsSource = _file.DataTable.AsDataView();
         }
+
+        private void Filename_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            Open.IsEnabled = !string.IsNullOrWhiteSpace(Filename.Text);
+        }
     }
 }
