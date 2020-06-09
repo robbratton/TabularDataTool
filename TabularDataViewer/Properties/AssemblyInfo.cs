@@ -9,9 +9,9 @@ using System.Windows;
 [assembly: AssemblyTitle("TabularDataViewer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("UPMC")]
+[assembly: AssemblyCompany("Robert E. Bratton")]
 [assembly: AssemblyProduct("TabularDataViewer")]
-[assembly: AssemblyCopyright("Copyright © UPMC 2019")]
+[assembly: AssemblyCopyright("Copyright © Robert E. Bratton 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
